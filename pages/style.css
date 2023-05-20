@@ -74,6 +74,11 @@ flex-direction: column ;
    
 }
 
+#accueil:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .centertext{
     display: flex;
     justify-content: center;
