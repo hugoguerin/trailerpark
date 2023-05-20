@@ -1,0 +1,81 @@
+.c1{
+    
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+}
+
+.c1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform:rotate(-5deg);
+    font-size: 6vw;
+    color: red;
+    background-color: black;
+    width: fit-content;
+    display: block;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+body{
+background-image:url(../img/trailerpark.jpg);
+background-size: cover;
+display: flex;
+flex-direction: column ;
+
+}
+
+#imgcenter{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.alias{
+ 
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform:rotate(5deg);
+    font-size: 4vw;
+    color: rgb(26, 6, 6);
+    width: fit-content;
+    display: block;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.imggallery{
+    width: 15vw;
+    height: auto;
+    border-style: solid;
+ 
+}
+
+#accueil{
+    width: fit-content;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    color: black;
+   
+}
+
+.centertext{
+    display: flex;
+    justify-content: center;
+    
+}
